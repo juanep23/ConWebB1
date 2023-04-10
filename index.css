@@ -3,6 +3,7 @@ body {
     padding: 0;
 }
 
+/*Este é o menu da página*/
 .menu {
     border-bottom: 2px solid crimson;
     background-color: crimson;
@@ -30,6 +31,7 @@ nav li:not(:last-child)::after {
     padding-left: 10px;
 }
 
+/*Aqui é o cover/header da página*/
 header {
     display: flex;
     color: whitesmoke;
@@ -42,6 +44,7 @@ header {
     height: 300px;
 }
 
+/*Este é o conteúdo da página*/
 .main {
     display: flex;
     justify-content: space-evenly;
@@ -97,6 +100,7 @@ img {
     margin-top: 0px;
 }
 
+/*Aqui é o rodapé*/
 .rodape {
     display: flex;
     height: 50px;
